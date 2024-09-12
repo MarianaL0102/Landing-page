@@ -1,4 +1,4 @@
-# Objective of the landing page
+# Objetivo de la landing page
 
-* Have a good presentation
-* Have a form
+* Tener una excelente presentacion
+* Tener un formulario

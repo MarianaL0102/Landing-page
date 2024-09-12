@@ -1,0 +1,56 @@
+:root {
+    --primario: #369699;
+    --secundario: #68B8CC;
+    --transparencia: #84e3d0;
+    --negro: #002433;
+    --grisClaro: #fafafa;
+    --negro: #0A0A0A;
+
+    --fuenteHeading: 'Poppins', sans-serif;;
+    --fuenteParrafos: 'Open Sans', sans-serif;;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: var(--fuenteParrafos);
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+/* Globales */
+.contenedor {
+    max-width: 120rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    font-weight: 900;
+    font-family: var(--fuentePrincipal);
+}
+h1 {
+    font-size: 4.4rem;
+}  
+h2 {
+    font-size: 3.6rem;
+}
+h3 {
+    font-size: 2.8rem;
+}
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
+/* Utilidades */
+.texte-center {
+    text-align: center;
+}

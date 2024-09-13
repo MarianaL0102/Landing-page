@@ -1,6 +1,6 @@
 :root {
     --primario: #369699;
-    --secundario: #68B8CC;
+    --secundario: #60c7ca;
     --transparencia: #84e3d0;
     --negroAzul: #002433;
     --grisClaro: #fafafa;
@@ -36,13 +36,13 @@ h1, h2, h3 {
     font-family: var(--fuenteHeading);
 }
 h1 {
-    font-size: 4.4rem;
+    font-size: 4rem;
 }  
 h2 {
-    font-size: 3.6rem;
+    font-size: 3.2rem;
 }
 h3 {
-    font-size: 2.8rem;
+    font-size: 2.6rem;
 }
 a {
     text-decoration: none;
@@ -66,47 +66,7 @@ img {
 
 /* Header */
 
-.header {
-    width: 100%;
-    height: 100vh;
-    min-height: 60rem;
-    max-height: 80rem;
-    position: relative;
-    padding: 5rem 0;
-    display: grid;
-    grid-template-rows: 10rem 1fr;
-}
-.header::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: linear-gradient(180deg, #0000008c 0%, #0000008c 100%), url(../assets/computer.jpg);
-    background-size: cover;
-    clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 95%, 0 80%);
-    z-index: -1;
-}
 
-@media (min-width: 768px) {
-    .header__barra {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        font-weight: 500;
-    }
-}
-.header__barra a {
-    color: var(--grisClaro);
-    font-size: 2rem;
-}
-.header__barra span{
-    font-weight: 700;
-}
-.header__logo {
-    text-align: center;
-}
 
 /* Nav */
 

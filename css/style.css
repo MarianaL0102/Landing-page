@@ -157,3 +157,40 @@ img {
 .nav__link {
     margin-left: auto;
 }
+
+/* Principal */
+
+.principal__heading {
+    color: var(--negroAzul);
+}
+.principal__contenedor {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 8rem;
+    display: grid;
+    width: 90%;
+    gap: 1rem;
+    overflow: hidden;
+    grid-template-columns: repeat(3, 1fr);
+}
+.subtitulo {
+    color: var(--negroAzul);
+    margin: 0;
+}
+.subtitulo p {
+    line-height: 1.7;
+    color: var(--negroAzul);
+    margin: 0;
+    font-family: var(--fuenteParrafos);
+}
+.iconos {
+    display: grid;
+    gap: 1rem;
+    justify-items: center;
+    width: 26rem;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.iconos__img {
+    width: 4rem;
+}

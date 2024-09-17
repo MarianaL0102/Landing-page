@@ -262,6 +262,62 @@ img {
     cursor: pointer;
 }
 
+/* Formulario */
+.formulario {
+    margin: 8rem;
+}
+.formulario__heading {
+    color: var(--negroAzul);
+}
+.registro {
+    background-color: var(--negroAzul);
+    width: min( 70rem, 100%);
+    margin: 0 auto;
+    padding: 3rem;
+    border-radius: 2rem;
+}
+.registro fieldset {
+    border: none;
+}
+
+.campo {
+    margin-bottom: 1rem;
+}
+
+.campo label {
+    color: var(--grisClaro);
+    font-weight: 700;
+    margin-bottom: .5rem;
+    display: block;
+}
+
+.campo__texto {
+    width: 100%;
+    border: none;
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+.boton {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.boton__campos {
+    background-color: var(--grisClaro);
+    border: none;
+    border-radius: .5rem;
+    padding: 1rem 2rem;
+    color: var(--negroAzul);
+    font-size: 2rem;
+    font-weight: 700;
+    width: auto;
+    margin-top: 3rem;
+    text-align: center;
+}
+.boton__campos:hover {
+    cursor: pointer;
+}
+
 /* Footer */
 .footer {
     background-color: var(--primario);

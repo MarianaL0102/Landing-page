@@ -264,7 +264,7 @@ img {
 
 /* Formulario */
 .formulario {
-    margin: 8rem;
+    margin: 15rem;
 }
 .formulario__heading {
     color: var(--negroAzul);
@@ -320,7 +320,7 @@ img {
 
 /* Footer */
 .footer {
-    background-color: var(--primario);
+    background-color: var(--negroAzul);
     padding: 3rem 0;
 }
 .logo{

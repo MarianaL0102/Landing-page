@@ -26,5 +26,36 @@
 
         sliders[value-1].classList.add('testimonio__body--show');
     }
-
 })();
+
+    // Formulario
+
+    const botonEnviar = document.querySelector('.boton__campos');
+    botonEnviar.addEventListener('click', function(e) {
+        console.log(e);
+        e.preventDefault();
+
+        console.log('Enviando Formualario');
+    });
+
+// Inputs
+
+const datos = {
+    nombre: '',
+    telefono: '',
+    email: ''
+}
+
+const nombre = document.querySelector('#nombre');
+const telefono = document.querySelector('#telefono');
+const email = document.querySelector('#email');
+
+nombre.addEventListener('input', Texto);
+telefono.addEventListener('input', Texto);
+email.addEventListener('input', Texto);
+
+function Texto(e) {
+    datos[e.target.id] = e.target.value;
+
+    console.log(datos);
+}    
